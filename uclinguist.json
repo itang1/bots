@@ -1,0 +1,151 @@
+{
+    "origin": [
+        "New UChicago Linguistics course scheduled for #quarter# #year#! LING #digit##digit##digit##digit##digit#: #class_type# #topic.capitalize#. In this class, students will #verb# #noun#. Taught by #name#.",
+
+        "#seeking_applicants# for a #appt_length# #totem_pole# position! This role is perfect for someone #looking_for# #goal# #job#. Applicant should #specialize_in# #topic#. Start date #quarter# #year#. Please RT."
+    ],
+
+    "specialize_in": [
+        "specialize in",
+        "be experienced with"
+    ],
+
+    "seeking_applicants": [
+        "Now hiring",
+        "Seeking applicants"
+    ],
+
+    "appt_length": [
+        "Full-time",
+        "Part-time",
+        "Visiting",
+        "Tenure-track"
+    ],
+
+    "totem_pole": [
+        "Chancellor",
+        "Dean",
+        "Professor Emeritus",
+        "Professor",
+        "Associate Professor",
+        "Assistant Professor",
+        "Lecturer",
+        "Lab Manager"
+    ],
+
+    "looking_for": [
+        "looking forward to",
+        "interested in",
+        "who can put up with",
+        "experienced with"
+    ],
+
+    "goal": [
+        "devoting years to",
+        "the opportunity to"
+    ],
+
+    "job": [
+        "teach undergrads",
+        "make Powerpoint slides",
+        "supervise detention",
+        "host office hours",
+        "meet with students"
+    ],
+
+    "verb": [
+        "learn",
+        "write",
+        "practice",
+        "create",
+        "master",
+        "demonstrate knowledge of",
+        "understand",
+        "design",
+        "deconstruct",
+        "build",
+        "criticize",
+        "demonize",
+        "think about",
+        "study",
+        "solve",
+        "argue about"
+    ],
+
+    "noun": [
+        "incorrect theories",
+        "circular arguments",
+        "related topics",
+        "linguistics",
+        "IRB protocols",
+        "scholarly material"
+    ],
+
+    "quarter": [
+        "Spring",
+        "Summer",
+        "Fall",
+        "Winter"
+    ],
+
+    "year": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027"
+    ],
+
+    "digit": [
+        "1","2","3","4","5","6","7","8","9","0"
+    ],
+
+    "class_type": [
+        "Introduction to",
+        "Intermediate",
+        "Advanced",
+        "Seminar in",
+        "Methods in",
+        "Topics in",
+        "Theory of",
+        "Structure of",
+        "Semantics of",
+        "Syntax of",
+        "Morphology of",
+        "Practical Considerations of"
+    ],
+
+    "topic": [
+        "Ghost Sign Language",
+        "Parasitic Gaps",
+        "Elicitation Skills",
+        "Politeness Theory",
+        "Sixth Language Acquisition",
+        "Vowel Assimilation",
+        "pain"
+    ],
+
+    "name": [
+        "Karlos",
+        "Tulio",
+        "Amy",
+        "Monica",
+        "Allyson",
+        "Itamar",
+        "Anastasia",
+        "Lenore",
+        "Chris",
+        "Sharese",
+        "Jason",
+        "Salikoko",
+        "Andrew",
+        "Ming",
+        "Alan",
+        "Erik",
+        "Jessica",
+        "Jacob",
+        "Shekinah",
+        "Suzanne"
+    ]
+}
