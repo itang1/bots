@@ -1,34 +1,35 @@
 {
     "origin": [
-        "New UChicago Linguistics course scheduled for #quarter# #year#! LING #digit##digit##digit##digit##digit#: #class_type# #adj.capitalize# #topic.capitalize#. In this class, students will #do_something#. Taught by #uclinguist#.",
-
+        "New UChicago Linguistics course scheduled for #quarter# #year#! LING #digit##digit##digit##digit##digit#: #class_type# #adj_optional.capitalize# #topic#. In this class, students will #do_something#. Taught by #uclinguist#.",
         "#seeking_applicants# for a #appt_length# #totem_pole# position! This role is perfect for someone #looking_for# #goal# #job#. Applicant should #specialize_in# #topic#. Start date #quarter# #year#. Please RT."
     ],
-
+    "adj_optional": [
+        "",
+        "#adj#"
+    ],
     "do_something": [
         "#verb# #noun#",
         "#verb# #noun# and #verb# #noun#"
     ],
-
     "specialize_in": [
         "specialize in",
         "be experienced with",
         "have familiarity with",
-        "demonstrate experience in"
+        "demonstrate experience in",
+        "have proficiendcy in"
     ],
-
     "seeking_applicants": [
         "Now hiring",
-        "Seeking applicants"
+        "Seeking applicants",
+        "We are looking to fill a",
+        "Announcing a job opening for a"
     ],
-
     "appt_length": [
         "Full-time",
         "Part-time",
         "Visiting",
         "Tenure-track"
     ],
-
     "totem_pole": [
         "Chancellor",
         "Dean",
@@ -37,21 +38,19 @@
         "Associate Professor",
         "Assistant Professor",
         "Lecturer",
+        "Adjunct",
         "Lab Manager"
     ],
-
     "looking_for": [
         "looking forward to",
         "interested in",
         "who can put up with",
         "experienced with"
     ],
-
     "goal": [
         "devoting years to",
         "the opportunity to"
     ],
-
     "job": [
         "teach undergrads",
         "make Powerpoint slides",
@@ -59,7 +58,6 @@
         "host office hours",
         "meet with students"
     ],
-
     "verb": [
         "learn",
         "write",
@@ -69,6 +67,7 @@
         "demonstrate knowledge of",
         "understand",
         "design",
+        "experience",
         "deconstruct",
         "build",
         "criticize",
@@ -81,9 +80,28 @@
         "go through examples of",
         "express concerns about"
     ],
-
     "noun": [
-        "#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#","#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
+        "#topic#",
         "incorrect theories",
         "circular arguments",
         "related topics",
@@ -95,14 +113,12 @@
         "ground-breaking research",
         "scalar implicatures"
     ],
-
     "quarter": [
         "Spring",
         "Summer",
         "Fall",
         "Winter"
     ],
-
     "year": [
         "2022",
         "2023",
@@ -111,11 +127,18 @@
         "2026",
         "2027"
     ],
-
     "digit": [
-        "1","2","3","4","5","6","7","8","9","0"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "0"
     ],
-
     "class_type": [
         "Introduction to",
         "Intermediate",
@@ -130,7 +153,6 @@
         "Morphology of",
         "Practical Considerations of"
     ],
-
     "topic": [
         "#psycholing#",
         "#lang_acq#",
@@ -140,7 +162,6 @@
         "#syntax#",
         "#made_up#"
     ],
-
     "psycholing": [
         "Politeness Theory",
         "the Phonological Loop",
@@ -154,7 +175,6 @@
         "Perception Boundaries",
         "the Trace Model"
     ],
-
     "lang_acq": [
         "the Less-is-More Hypothesis",
         "Poverty of the Stimulus",
@@ -168,7 +188,6 @@
         "the Subset Principle",
         "Underextension"
     ],
-
     "computational": [
         "Embeddings",
         "Large Corpora",
@@ -187,7 +206,6 @@
         "Neural Fuzzy Matches",
         "Sentence-Legal Agreement"
     ],
-
     "phon": [
         "Affricates",
         "Monophthongization",
@@ -202,7 +220,6 @@
         "Articulation Rate and Naming Speed",
         "Sub-Optimality Theory"
     ],
-
     "semantics": [
         "Conventional Implicatures",
         "Illocutionary Force",
@@ -218,7 +235,6 @@
         "Montague Grammar",
         "Intensional Logic"
     ],
-
     "syntax": [
         "Count and Mass Nouns",
         "Aspect vs. Tense",
@@ -230,8 +246,7 @@
         "Head-Dependent Marking and Other Agreement",
         "Recursive Constituency"
     ],
-
-    "made-up": [
+    "made_up": [
         "Ghost Sign Language",
         "pain",
         "Syllabification of Ottoman Dialects",
@@ -242,27 +257,191 @@
         "Obligatory Contour Principle",
         "#rockstar#'s Greatest Hits"
     ],
-
     "rockstar": [
+        "Judith Aissen",
+        "Stephen Anderson",
+        "Joseph E Aoun",
+        "Raul Aranovich",
+        "Mark Aronoff",
+        "Karlos Arregi",
+        "Mark Baker",
+        "Marlyse Baptista",
+        "Rusty Barrett",
+        "Edwin Battistella",
+        "John Baugh",
+        "Robert Bayley",
+        "David Beaver",
+        "Mary Beckman",
+        "Patrice Beddor",
+        "Juliette Blevins",
+        "Sheila Blumstein",
+        "Robert Blust",
+        "Jonathan Bobaljik",
+        "Hagit Borer",
+        "Claire Bowern",
+        "Diane Brentari",
+        "Joan Bresnan",
+        "Ellen Broselow",
+        "Mary Bucholtz",
+        "Joan L Bybee",
+        "Rena Torres Cacoullos",
+        "Lyle Campbell",
+        "Greg Carlson",
+        "Gennaro Chierchia",
         "Noam Chompsky",
-        "Dan Jurafsky",
-        "Roger Levy",
-        "Edward Sapir",
-        "Pāṇini",
-        "Peter Ladefoged",
-        "Wilhelm von Humboldt",
-        "Otto Jesperson",
-        "Morris Halle",
-        "Donna Jo Napoli",
-        "George Lakoff",
-        "K. David Harrison",
-        "Michael Silverstein",
+        "Avram Noam Chomsky",
+        "Sandra Chung",
+        "Eve Clark",
+        "Andries Coetzee",
+        "Bernard Comrie",
+        "William Croft",
+        "Megan Crowhurst",
+        "Peter Culicover",
+        "Anthony Kroch (D)",
+        "Michael E Krauss (D)",
+        "Morris Halle (D)",
+        "Paul Chapin (D)",
+        "Wallace Chafe (D)",
+        "William Bright (D)",
+        "Arthur S. Abramson (D)",
+        "Calvert Watkins (D)",
+        "Charles John Fillmore (D)",
+        "Dell H Hymes (D)",
+        "Emmon Bach (D)",
+        "Eric P Hamp (D)",
+        "Eugene A Nida (D)",
+        "Ilse Lehiste (D)",
+        "Ivan Sag (D)",
+        "Jane Hill (D)",
+        "John J Ohala (D)",
+        "B Elan Dresher",
+        "Penelope Eckert",
+        "Karen Emmorey",
+        "Nora C England",
+        "Patrick Farrell (D)",
+        "Kai von Fintel",
+        "Colleen Fitzgerald",
+        "Janet Dean Fodor",
+        "Lyn Frazier",
+        "Andrew Garrett",
+        "Lila R Gleitman",
+        "Ives Goddard",
+        "Adele Goldberg",
+        "Susan Goldin-Meadow",
         "John Goldsmith",
+        "John Goldsmith",
+        "Louis Goldstein",
+        "Lisa Green",
+        "Morris Halle",
+        "Jorge Hankamer",
+        "Heidi Harley",
+        "Alice Harris",
+        "K. David Harrison",
+        "Bruce Hayes",
+        "Irene Heim",
         "Irene Helm",
+        "Andrew Hippisley",
+        "Hans Henrich Hock",
+        "Laurence Horn",
+        "C.-T. James Huang",
+        "Anne H. Charity Hudley",
+        "Wilhelm von Humboldt",
+        "Elizabeth Hume",
+        "Nina Hyams",
+        "Larry M Hyman",
+        "Sabine Iatridou",
+        "Sharon Inkelas",
+        "Ray Jackendoff",
+        "Pauline Jacobson",
+        "Jay H Jasanoff",
+        "Otto Jesperson",
+        "Brian D. Joseph",
+        "Dan Jurafsky",
+        "Dan Jurafsky",
+        "Ellen Kaisse",
+        "Richard Kayne",
+        "Patricia Keating",
+        "Edward L Keenan",
+        "Paul Kiparsky",
         "Angelika Kratzer",
-        "Steven Pinker"
+        "Angelika Kratzer",
+        "William Labov",
+        "Peter Ladefoged",
+        "William Ladusaw",
+        "George Lakoff",
+        "Sonja Lanehart",
+        "D Terence Langendoen",
+        "Richard Larson",
+        "Howard Lasnik",
+        "Beth Levin",
+        "Roger Levy",
+        "Mark Liberman",
+        "David Lightfoot",
+        "Diane Lillo-Martin",
+        "Anne Lobeck",
+        "Monica Macaulay",
+        "Joan Maling",
+        "John J McCarthy",
+        "James McClosky",
+        "Sally McConnell-Ginet",
+        "Richard Meier",
+        "Lise Menn",
+        "Miriam Meyerhoff",
+        "Laura Michaelis",
+        "Marianne Mithun",
+        "Salikoko S Mufwene",
+        "Donna Jo Napoli",
+        "Donna Jo Napoli",
+        "Frederick J Newmeyer",
+        "Johanna Nichols",
+        "Ricardo Otheguy",
+        "Carol A Padden",
+        "Barbara H Partee",
+        "David Perlmutter",
+        "David Pesetsky",
+        "Stanley Peters",
+        "Colin Phillips",
+        "Janet Pierrehumbert",
+        "Pāṇini",
+        "Steven Pinker",
+        "Steven Pinker",
+        "Maria Polinsky",
+        "Shana Poplack",
+        "Dennis Preston",
+        "Ellen Prince",
+        "Geoffrey K Pullum",
+        "Robin Queen",
+        "Keren Rice",
+        "John Rickford",
+        "Thomas Roeper",
+        "Philip Rubin",
+        "Jerrold Sadock",
+        "Joe Salmons",
+        "Gillian Sankoff",
+        "Edward Sapir",
+        "Natalie Schilling",
+        "Elisabeth Selkirk",
+        "Roger Shuy",
+        "Michael Silverstein",
+        "Dan Slobin",
+        "Bernard Spolsky",
+        "Donca Steriade",
+        "Gregory Stump",
+        "Sali Tagliamonte",
+        "Deborah Tannen",
+        "Sarah Thomason",
+        "Sandra A Thompson",
+        "Graham Thurgood",
+        "Elizabeth C Traugott",
+        "Gregory Ward",
+        "Thomas Wasow",
+        "Don Winford",
+        "Walt Wolfram",
+        "Anthony C. Woodbury",
+        "Alan Yu",
+        "Georgia Zellou",
+        "Arnold Zwicky"
     ],
-
     "uclinguist": [
         "Karlos",
         "Tulio",
@@ -315,7 +494,6 @@
         "Irene",
         "Darragh"
     ],
-
     "adj": [
         "Aristotelian",
         "Arthurian",
@@ -520,13 +698,10 @@
         "defective",
         "defenseless",
         "deluded",
-        "deodorant",
-        "departed",
         "depress",
         "designing",
         "despairing",
         "destitute",
-        "detective",
         "determined",
         "devastating",
         "deviant",
@@ -555,10 +730,9 @@
         "dotted",
         "double-blind",
         "downbeat",
-        "dozen",
         "draining",
         "draught",
-        "dread",
+        "dreaded",
         "dried",
         "dropped",
         "dulled",
@@ -952,7 +1126,7 @@
         "positive",
         "possible",
         "postpartum",
-        "prank",
+        "pranking",
         "pre-emptive",
         "precocious",
         "predicted",
